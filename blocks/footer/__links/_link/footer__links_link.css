@@ -1,0 +1,25 @@
+ .footer__links_link {
+  text-decoration: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+
+@media  screen and (max-width: 320px){
+  .footer__links_link {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    margin-right: 16px;
+  }
+   
+  .footer__links_link:last-child {
+    margin-bottom: 0;
+  }
+
+}

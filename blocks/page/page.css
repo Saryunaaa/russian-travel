@@ -1,0 +1,37 @@
+.page {
+    position: relative;
+    margin: 0 auto;
+    background: #2A2C2F;
+    max-width: 1280px;
+    width: 100%;
+    font-family: 'Inter';
+    overflow-x: hidden;
+}
+
+@media  screen and (max-width: 1440px){
+    .page {
+        max-width: 1280px;
+        min-height: 6875px;
+    } 
+  }
+  
+  @media  screen and (max-width: 1024px){
+    .page {
+      max-width: 1024px;
+        min-height: 6895px;
+    } 
+  }
+  
+  @media  screen and (max-width: 768px){
+    .page {
+       max-width: 768px;
+       min-height: 6855px;
+    } 
+  }
+  
+  @media  screen and (max-width: 320px){
+    .page {
+       max-width: 320px;
+       min-height: 10023px;
+    } 
+  }

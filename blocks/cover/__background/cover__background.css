@@ -1,0 +1,34 @@
+.cover__background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    background-size: 100%;
+}
+
+.cover__background:hover {
+    transition: 0.2s;
+    opacity: 0.3;
+}
+  
+  @media  screen and (max-width: 1024px){
+    .cover__background {
+       max-width: 1024px;
+       margin: 0;
+    } 
+  }
+  
+  @media  screen and (max-width: 768px){
+    .cover__background {
+        max-width: 768px;
+        margin: 0;
+    } 
+  }
+  
+  @media  screen and (max-width: 320px){
+    .cover__background {
+        max-width: 320px;
+        margin: 0;
+    } 
+  }

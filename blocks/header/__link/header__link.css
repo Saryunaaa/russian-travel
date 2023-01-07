@@ -1,0 +1,5 @@
+.header__link {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+}
