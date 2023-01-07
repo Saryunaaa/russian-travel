@@ -11,12 +11,11 @@
 
  html {
   line-height: 1.15; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%;
   overflow: scroll;
-  overflow-x: hidden; 
-}
-
-::-webkit-scrollbar {
+  overflow-x: hidden;
+   }
+  ::-webkit-scrollbar {
   width: 0px;  /* remove scrollbar space */
   background: transparent;  /* optional: just make scrollbar invisible */
     }
@@ -24,7 +23,6 @@
   ::-webkit-scrollbar-thumb {
   background: #FF0000;
    }
-
 /* Sections
    ========================================================================== */
 

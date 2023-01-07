@@ -2,11 +2,10 @@
     display: flex;
     flex-wrap: wrap;
     padding: 0;
-    max-width: 690px;
+    max-width: 720px;
     min-height: 429px;
     width: 100%;
     position: relative;
-    
 }
 
 @media  screen and (max-width: 1440px){

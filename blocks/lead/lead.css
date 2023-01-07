@@ -6,7 +6,6 @@
   width: 100%;
   max-width: 984px;
   min-height: 1005px;
-  overflow: hidden;
 }
 
 @media  screen and (max-width: 1440px){

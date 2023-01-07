@@ -6,7 +6,8 @@
     gap: 48px 40px;
     margin-top: 0;
     padding: 0;
-    max-width: 100%;
+    width: 100%;
+    max-width: 986px;
 }
 
 .place:last-child {
