@@ -1,5 +1,4 @@
-
-  /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
    ========================================================================== */
@@ -11,18 +10,9 @@
 
  html {
   line-height: 1.15; /* 1 */
-  -webkit-text-size-adjust: 100%;
-  overflow: scroll;
-  overflow-x: hidden;
-   }
-  ::-webkit-scrollbar {
-  width: 0px;  /* remove scrollbar space */
-  background: transparent;  /* optional: just make scrollbar invisible */
-    }
-  /* optional: show position indicator in red */
-  ::-webkit-scrollbar-thumb {
-  background: #FF0000;
-   }
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
 /* Sections
    ========================================================================== */
 

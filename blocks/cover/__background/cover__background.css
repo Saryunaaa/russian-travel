@@ -4,7 +4,8 @@
     justify-content: center;
     width: 100%;
     position: relative;
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .cover__background:hover {
