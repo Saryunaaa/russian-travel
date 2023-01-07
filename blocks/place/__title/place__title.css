@@ -1,4 +1,4 @@
-.places__place_title {
+.place__title {
 font-family: 'Inter';
 font-style: normal;
 font-weight: 900;
@@ -14,24 +14,23 @@ width: 100%;
 }
   
   @media  screen and (max-width: 1024px){
-    .places__place_title {
+    .place__title {
         max-width: 440px;
-        min-height: 152px;
+        min-height: 76px;
     } 
   }
   
   @media  screen and (max-width: 768px){
-    .places__place_title {
+    .place__title {
         max-width: 340px;
-        min-height: 46px;
+        max-height: 92px;
         font-size: 42px;
         line-height: 46px;
-      
     } 
   }
   
   @media  screen and (max-width: 320px){
-    .places__place_title {
+    .place__title {
        max-width: 288px;
        min-height: 35px;
        font-size: 32px;

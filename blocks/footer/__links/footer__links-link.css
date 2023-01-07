@@ -1,4 +1,4 @@
- .footer__links_link {
+ .footer__links-link {
   text-decoration: none;
   font-family: 'Inter';
   font-style: normal;
@@ -10,14 +10,14 @@
 
 
 @media  screen and (max-width: 320px){
-  .footer__links_link {
+  .footer__links-link {
     font-weight: 400;
     font-size: 24px;
     line-height: 24px;
     margin-right: 16px;
   }
    
-  .footer__links_link:last-child {
+  .footer__links-link:last-child {
     margin-bottom: 0;
   }
 

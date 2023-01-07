@@ -1,4 +1,4 @@
-.places__place_text {
+.place__text {
     display: flex;
     flex-direction: column;
     font-family: 'Inter';
@@ -11,26 +11,26 @@
     gap: 26px;
 }
 
-@media  screen and (max-width: 1279px){
-    .places__place_text  {
+@media  screen and (max-width: 1440px){
+  .place__text  {
        gap:26px;
     } 
   }
   
-  @media  screen and (max-width: 1023px){
-    .places__place_text {
+  @media  screen and (max-width: 1024px){
+    .place__text{
        gap: 27px;
   }
 }
   
-  @media  screen and (max-width: 767px){
-    .places__place_text {
+  @media  screen and (max-width: 768px){
+    .place__text {
         gap: 26px;
     } 
   }
   
-  @media  screen and (max-width: 319px){
-    .places__place_text {
+  @media  screen and (max-width: 320px){
+    .place__text {
        gap: 25;
     } 
   }

@@ -1,4 +1,4 @@
-.places__place_website {
+.place__website {
   display: flex;
   flex-direction: column;
   max-width: 456px;
@@ -12,28 +12,28 @@
 }
 
 @media  screen and (max-width: 1440px){
-  .places__place_website {
+  .place__website {
       max-width: 456px;
       
   } 
 }
 
 @media  screen and (max-width: 1024px){
-  .places__place_website {
+  .place__website {
       max-width: 456px;
       
   } 
 }
 
 @media  screen and (max-width: 768px){
-  .places__place_website {
+  .place__website {
       max-width: 352px;
     
   } 
 }
 
 @media  screen and (max-width: 320px){
-  .places__place_website {
+  .place__website {
       max-width: 288px;
       margin-left: 16px;
   } 
