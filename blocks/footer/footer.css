@@ -8,10 +8,11 @@
   padding: 0;
   box-sizing: border-box;
   width: 100%;
+  align-items: center;
 }
 
 
-@media  screen and (max-width: 1440px){
+@media  screen and (max-width: 2560px){
   .footer {
     max-width: 1184px;
     margin: 0 48px 24px;

@@ -13,7 +13,7 @@
   width: 100%;
 }
 
-@media  screen and (max-width: 1440px){
+@media  screen and (max-width: 2560px){
   .cover__subtitle {
     margin: 0 412px 245px;
   } 

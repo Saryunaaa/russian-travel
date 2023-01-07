@@ -5,13 +5,14 @@ margin: 28px 48px 0;
 padding: 0;
 width: 100%;
 max-width: 1184px;
+align-items: center;
 }
 
 ::-webkit-scrollbar {
   width: 0;
 }
   
-@media  screen and (max-width: 1440px){
+@media  screen and (max-width: 2560px){
   .header {
     max-width: 1184px;
     min-height: 52px;

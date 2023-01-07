@@ -8,13 +8,14 @@
     padding: 0;
     width: 100%;
     max-width: 986px;
+    align-items: center;
 }
 
 .place:last-child {
   margin-bottom: 0;
 }
 
-@media  screen and (max-width: 1440px){
+@media  screen and (max-width: 2560px){
     .place {
         width: 100%;
         max-width: 986px;

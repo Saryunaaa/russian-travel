@@ -16,7 +16,7 @@
     margin: 0;
   }
   
-  @media  screen and (max-width: 1440px){
+  @media  screen and (max-width: 2560px){
       .intro__list {
         max-width: 690px;
         min-height: 90px;

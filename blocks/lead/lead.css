@@ -8,7 +8,7 @@
   min-height: 1005px;
 }
 
-@media  screen and (max-width: 1440px){
+@media  screen and (max-width: 2560px){
   .lead {
     max-width: 984px;
     min-height: 615px;

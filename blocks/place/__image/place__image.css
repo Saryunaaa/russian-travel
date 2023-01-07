@@ -10,7 +10,7 @@
     padding: 0;
 }
 
-@media  screen and (max-width: 1440px){
+@media  screen and (max-width: 2560px){
    .place__image {
         margin-right: 40px;
         max-width: 460px;

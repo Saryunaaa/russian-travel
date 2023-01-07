@@ -3,7 +3,6 @@
   flex-direction: column;
   max-width: 456px;
   max-height: 46px;
-
   padding-bottom: 48px;
   margin: 0;
   grid-area: website;
@@ -11,7 +10,7 @@
   width: 100%;
 }
 
-@media  screen and (max-width: 1440px){
+@media  screen and (max-width: 2560px){
   .place__website {
       max-width: 456px;
       

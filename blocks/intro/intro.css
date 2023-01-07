@@ -6,9 +6,10 @@
     min-height: 429px;
     width: 100%;
     position: relative;
+    align-items: center;
 }
 
-@media  screen and (max-width: 1440px){
+@media  screen and (max-width: 2560px){
     .intro {
       margin: 92px 442px 92px 148px;
     } 
