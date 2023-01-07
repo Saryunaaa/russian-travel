@@ -1,4 +1,4 @@
-.place {
+.places__place {
     display: grid;
     grid-template-areas: 
     "title website"
@@ -9,12 +9,12 @@
     max-width: 100%;
 }
 
-.place:last-child {
+.places__place:last-child {
   margin-bottom: 0;
 }
 
 @media  screen and (max-width: 1280px){
-    .place {
+    .places__place {
         width: 100%;
         max-width: 986px;
         min-height: 660px;
@@ -25,7 +25,7 @@
   }
   
   @media  screen and (max-width: 1024px){
-    .place {
+    .places__place {
         width: 100%;
         max-width: 928px;
         min-height: 640px;
@@ -36,7 +36,7 @@
   }
   
   @media  screen and (max-width: 768px){
-    .place {
+    .places__place {
         width: 100%;
         max-width: 720px;
         min-height: 535px;
@@ -47,7 +47,7 @@
   }
   
   @media  screen and (max-width: 320px){
-    .place {
+    .places__place {
         width: 100%;
         max-width: 320px;
         min-height: 965px;

@@ -1,4 +1,4 @@
-.place_text {
+.places__place_text {
     display: flex;
     flex-direction: column;
     font-family: 'Inter';
@@ -12,25 +12,25 @@
 }
 
 @media  screen and (max-width: 1279px){
-    .place_text  {
+    .places__place_text  {
        gap:26px;
     } 
   }
   
   @media  screen and (max-width: 1023px){
-    .place_text {
+    .places__place_text {
        gap: 27px;
   }
 }
   
   @media  screen and (max-width: 767px){
-    .place_text {
+    .places__place_text {
         gap: 26px;
     } 
   }
   
   @media  screen and (max-width: 319px){
-    .place_text {
+    .places__place_text {
        gap: 25;
     } 
   }
