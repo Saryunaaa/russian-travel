@@ -27,13 +27,13 @@
 
 @import url(../blocks/places/places.css);
 
-@import url(../blocks/place/__image/place__image.css);
-@import url(../blocks/place/__title/place__title.css);
-@import url(../blocks/place/__text/place__text.css);
-@import url(../blocks/place/__text/_paragraph/place__text_paragraph.css);
-@import url(../blocks/place/__website/_link/place__website_link.css);
-@import url(../blocks/place/__website/_url-heading/place__website_url-heading.css);
-@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/_image/place_image.css);
+@import url(../blocks/place/_text/_paragraph/place__text_paragraph.css);
+@import url(../blocks/place/_text/place_text.css);
+@import url(../blocks/place/_title/place_title.css);
+@import url(../blocks/place/_website/_link/place__website_link.css);
+@import url(../blocks/place/_website/_url-heading/place__website_url-heading.css);
+@import url(../blocks/place/_website/place_website.css);
 @import url(../blocks/place/place.css);
 
 @import url(../blocks/cover/__background/cover__background.css);

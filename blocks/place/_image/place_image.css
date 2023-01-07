@@ -1,4 +1,4 @@
-.place__image {
+.place_image {
     display: block;
     object-fit: cover;
     width: 100%;
@@ -11,7 +11,7 @@
 }
 
 @media  screen and (max-width: 1280px){
-    .place__image {
+    .place_image {
         margin-right: 40px;
         max-width: 460px;
         min-height: 460px;
@@ -19,7 +19,7 @@
   }
   
   @media  screen and (max-width: 1024px){
-    .place__image {
+    .place_image {
         margin-right: 32px;
         max-width: 440px;
         min-height: 440px;
@@ -27,7 +27,7 @@
   }
   
   @media  screen and (max-width: 768px){
-    .place__image {
+    .place_image {
         margin-right: 28px;
         max-width: 340px;
         min-height: 340px;
@@ -35,7 +35,7 @@
   }
   
   @media  screen and (max-width: 320px){
-    .place__image {
+    .place_image {
         max-width: 320px;
         max-height: 320px;
   }
