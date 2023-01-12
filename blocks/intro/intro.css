@@ -4,7 +4,7 @@
     padding: 0;
     max-width: 720px;
     min-height: 429px;
-    width: calc(100%-148px * 2);
+    width: calc(100% - 148px * 2);
     position: relative;
     align-items: center;
     box-sizing: border-box;
