@@ -1,38 +1,13 @@
 .page {
     position: relative;
     margin: 0 auto;
+    padding: 0;
     background: #2A2C2F;
     max-width: 1280px;
-    width: 100%;
-    font-family: 'Inter';
-    overflow-x: hidden;
-    align-items: center;
+    min-width: 320px;
+    font-family: 'Inter', Arial, sans-serif;
+    box-sizing: border-box;
+    max-height: 100%;
 }
 
-@media  screen and (max-width: 2560px){
-    .page {
-        max-width: 1280px;
-        min-height: 6875px;
-    } 
-  }
-  
-  @media  screen and (max-width: 1024px){
-    .page {
-      max-width: 1024px;
-      min-height: 6895px;
-    } 
-  }
-  
-  @media  screen and (max-width: 768px){
-    .page {
-       max-width: 768px;
-       min-height: 6855px;
-    } 
-  }
-  
-  @media  screen and (max-width: 320px){
-    .page {
-       max-width: 320px;
-       min-height: 10023px;
-    } 
-  }
+::-webkit-scrollbar { width: 0;}

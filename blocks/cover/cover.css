@@ -1,42 +1,40 @@
 .cover {
-  width: 100%;
-  max-width: 1184px;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 0;
   align-items: center;
+  margin: 0 auto;
+  position: relative;
+  max-height: 740px;
+  box-sizing: border-box;
 }
 
 @media  screen and (max-width: 2560px){
   .cover {
-    max-width: 1184px;
-    min-height: 740px;
-    margin: 0 48px 92px;
+    width: calc(100% - 48px * 2);
+    margin-bottom: 92px;
   } 
 }
-  
+
   @media  screen and (max-width: 1024px){
     .cover {
-      max-width: 1024px;
-      min-height: 640px;
-      margin: 0 0 92px;
+      width: 100%;
+      margin-bottom: 92px;
     } 
   }
   
   @media  screen and (max-width: 768px){
     .cover {
-      max-width: 768px;
-      min-height: 480px;
-      margin: 0 0 88px;
+      max-width: 100%;
+      margin-bottom: 88px;
     } 
   }
   
   @media  screen and (max-width: 320px){
     .cover {
-      max-width: 320px;
-      min-height: 200px;
-      margin: 0 0 64px;
+      max-width: 100%;
+      max-height: 400px;
+      margin-bottom: 64px;
     }
   }

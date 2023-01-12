@@ -1,33 +1,22 @@
 .place__text {
     display: flex;
     flex-direction: column;
+    align-self: flex-start;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 29px;
     color: #FFFFFF;
-    margin: 0;
+    margin: 0 auto;
     gap: 26px;
 }
-
-@media  screen and (max-width: 2560px){
-  .place__text  {
-       gap:26px;
-    } 
-  }
   
   @media  screen and (max-width: 1024px){
     .place__text{
        gap: 27px;
   }
 }
-  
-  @media  screen and (max-width: 768px){
-    .place__text {
-        gap: 26px;
-    } 
-  }
   
   @media  screen and (max-width: 320px){
     .place__text {

@@ -4,12 +4,8 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 16px;
-text-align: right;
 color: #FFFFFF;
 margin: 0;
-width: 100%;
-min-height: 14px;
-max-width: fit-content;
 } 
 
 
@@ -18,7 +14,5 @@ max-width: fit-content;
         font-weight: 400;
         font-size: 14px;
         line-height: 14px;
-        margin-right: 0;
-        text-align: start;
     }
   }

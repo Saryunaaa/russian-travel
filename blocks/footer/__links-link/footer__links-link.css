@@ -8,17 +8,19 @@
   color: white;
 }
 
+.footer__links-link:hover {
+  opacity: 0.5;
+}
+
 
 @media  screen and (max-width: 320px){
   .footer__links-link {
     font-weight: 400;
     font-size: 24px;
     line-height: 24px;
-    margin-right: 16px;
   }
    
   .footer__links-link:last-child {
     margin-bottom: 0;
   }
-
 }

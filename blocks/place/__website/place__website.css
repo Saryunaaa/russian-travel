@@ -3,31 +3,15 @@
   flex-direction: column;
   max-width: 456px;
   max-height: 46px;
-  padding-bottom: 48px;
   margin: 0;
   grid-area: website;
   gap: 12px;
   width: 100%;
 }
 
-@media  screen and (max-width: 2560px){
-  .place__website {
-      max-width: 456px;
-      
-  } 
-}
-
-@media  screen and (max-width: 1024px){
-  .place__website {
-      max-width: 456px;
-      
-  } 
-}
-
 @media  screen and (max-width: 768px){
   .place__website {
       max-width: 352px;
-    
   } 
 }
 
@@ -35,5 +19,6 @@
   .place__website {
       max-width: 288px;
       margin-left: 16px;
+      margin-bottom: 32px;
   } 
 }
