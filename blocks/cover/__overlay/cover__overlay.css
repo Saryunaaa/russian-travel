@@ -1,6 +1,7 @@
 .cover__overlay {
   background-image: url(../../../sprint-3-images/cover-trains.jpg);
   background-size: cover;
+  object-fit: cover;
   background-repeat: no-repeat;
   background-position: center;
   display:flex;
