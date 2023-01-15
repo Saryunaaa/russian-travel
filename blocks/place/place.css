@@ -26,7 +26,6 @@
     .place {
         grid-template-columns: 440px 1fr;
         column-gap: 32px;
-        margin-bottom: 80px;
     } 
   }
   
@@ -42,7 +41,6 @@
    .place {
         width: 100%;
         max-width: 320px;
-        min-height: 965px;
         grid-template-areas: 
         "title" 
         "website"

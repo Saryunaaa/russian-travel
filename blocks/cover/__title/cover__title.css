@@ -2,8 +2,7 @@
   position: relative;
   align-self: center;
   max-width: 560px;
-  min-height: 70px;
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -17,21 +16,18 @@
 @media  screen and (max-width: 2560px){
   .cover__title {
     margin: 245px 312px 32px;
-    max-height: 152px;
   } 
 }
 
 @media  screen and (max-width: 1024px){
   .cover__title {
     margin: 195px 232px 32px;
-    max-height: 152px;
   } 
 }
 
 @media  screen and (max-width: 768px){
   .cover__title {
     margin: 115px 104px 32px;
-    max-height: 152px;
   } 
 }
 

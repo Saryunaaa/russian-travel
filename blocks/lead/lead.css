@@ -8,13 +8,11 @@
   position: relative;
   object-fit: contain;
   max-width: 984px;
-  overflow: hidden;
   box-sizing: border-box;
 }
 
 @media  screen and (max-width: 2560px){
   .lead {
-    width: calc(100% - 148px * 2);
     margin-top: 64px;
   } 
 }
@@ -30,7 +28,6 @@
   .lead {
     width: 100%;
     max-width: 768px;
-    margin-top: 56px;
   } 
 }
 

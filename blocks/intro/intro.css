@@ -3,7 +3,6 @@
     flex-wrap: wrap;
     padding: 0;
     max-width: 720px;
-    min-height: 429px;
     width: calc(100% - 148px * 2);
     position: relative;
     align-items: center;
@@ -18,20 +17,22 @@
   
   @media  screen and (max-width: 1024px){
     .intro {
+      width: calc(100% - 48px * 2);
       margin: 92px 286px 92px 48px;
     } 
   }
   
   @media  screen and (max-width: 768px){
     .intro {
+      width: calc(100% - 24px * 2);
       margin: 88px 24px;
     } 
   }
   
   @media  screen and (max-width: 320px){
     .intro {
+      width: calc(100% - 16px * 2);
       margin: 64px 16px;
       max-width: 288px;
-      min-height: 754px;
     } 
   }
