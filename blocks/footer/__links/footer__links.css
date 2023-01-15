@@ -1,22 +1,22 @@
 .footer__links {
-    display: flex;
-    align-self: flex-start;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    gap: 18px;
+  display: flex;
+  align-self: flex-start;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  gap: 18px;
 }
 
-@media  screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
   .footer__links {
     flex-direction: column;
     margin-bottom: 16px;
     margin-left: 0;
   }
 }
-  
-@media  screen and (max-width: 320px){
+
+@media screen and (max-width: 320px) {
   .footer__links {
-    gap: 32px;  
+    gap: 32px;
   }
 }

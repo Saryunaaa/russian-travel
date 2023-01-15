@@ -9,16 +9,15 @@
   width: 100%;
 }
 
-@media  screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .place__website {
-      max-width: 352px;
-  } 
+    max-width: 352px;
+  }
 }
 
-@media  screen and (max-width: 320px){
+@media screen and (max-width: 320px) {
   .place__website {
-      max-width: 288px;
-      margin-left: 16px;
-  } 
+    max-width: 288px;
+    margin-left: 16px;
+  }
 }
-

@@ -10,23 +10,23 @@
 }
 
 
-@media  screen and (max-width: 2560px){
+@media screen and (max-width: 2560px) {
   .footer {
     margin-bottom: 24px;
   }
 }
 
-@media  screen and (max-width: 768px){
-    .footer {
-      width: calc(100% - 24px * 2);
-    }
+@media screen and (max-width: 768px) {
+  .footer {
+    width: calc(100% - 24px * 2);
   }
+}
 
-@media  screen and (min-width: 320px) and (max-width: 767px){
-    .footer {
-      width: calc(100% - 16px * 2);
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 32px;
-    }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .footer {
+    width: calc(100% - 16px * 2);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
   }
+}

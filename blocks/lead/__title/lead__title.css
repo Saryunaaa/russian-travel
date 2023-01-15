@@ -19,18 +19,6 @@
   } 
 }
 
-@media  screen and (max-width: 1024px){
-  .lead__title {
-    margin: 0 auto 32px;
-  } 
-}
-
-@media  screen and (max-width: 768px){
-  .lead__title {
-    margin: 0 auto 32px;
-  } 
-}
-
 @media  screen and (min-width: 320px) and (max-width: 720px){
   .lead__title {
     max-width: 100%;

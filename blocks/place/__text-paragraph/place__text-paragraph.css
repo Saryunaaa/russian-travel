@@ -1,5 +1,5 @@
 .place__text-paragraph {
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -9,30 +9,30 @@
   margin: 0 auto;
   width: 100%;
   align-self: flex-start;
-  
+
 }
 
-@media  screen and (max-width: 2560px){
-  .place__text-paragraph  {
-      max-width: 484px;
-  } 
-}
-
-@media  screen and (max-width: 1024px){
+@media screen and (max-width: 2560px) {
   .place__text-paragraph {
-      max-width: 456px;
-  } 
+    max-width: 484px;
+  }
 }
 
-@media  screen and (max-width: 768px){
+@media screen and (max-width: 1024px) {
   .place__text-paragraph {
-      max-width: 352px;
-  } 
+    max-width: 456px;
+  }
 }
 
-@media  screen and (max-width: 320px){
+@media screen and (max-width: 768px) {
   .place__text-paragraph {
-      max-width: 288px;
-      margin-left: 16px;
-  } 
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__text-paragraph {
+    max-width: 288px;
+    margin-left: 16px;
+  }
 }

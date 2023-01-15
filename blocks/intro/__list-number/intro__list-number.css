@@ -1,7 +1,7 @@
 .intro__list-number {
-font-family: 'Inter';
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 18px;
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
 }
