@@ -6,7 +6,10 @@
   padding: 0;
   box-sizing: border-box;
   width: calc(100% - 48px * 2);
-  margin: 0 auto;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
 }
 
 
@@ -16,7 +19,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .footer {
     width: calc(100% - 24px * 2);
   }

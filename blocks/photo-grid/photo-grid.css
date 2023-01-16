@@ -5,15 +5,10 @@
   margin: 0 auto;
   align-items: center;
   box-sizing: border-box;
-}
-
-@media screen and (max-width: 2560px) {
-  .photo-grid {
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    margin-bottom: 92px;
-    gap: 16px;
-  }
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin-bottom: 92px;
+  gap: 16px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -21,7 +16,6 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
     gap: 14px;
-    margin-bottom: 92px;
   }
 }
 

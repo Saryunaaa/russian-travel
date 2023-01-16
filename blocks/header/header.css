@@ -8,13 +8,8 @@
   align-items: center;
   box-sizing: border-box;
   margin-bottom: 0;
-}
-
-@media screen and (max-width: 2560px) {
-  .header {
-    margin-left: 48px;
-    margin-right: 48px;
-  }
+  margin-left: 48px;
+  margin-right: 48px;
 }
 
 @media screen and (max-width: 1024px) {

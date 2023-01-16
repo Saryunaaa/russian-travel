@@ -9,12 +9,7 @@
   object-fit: contain;
   max-width: 984px;
   box-sizing: border-box;
-}
-
-@media screen and (max-width: 2560px) {
-  .lead {
-    margin-top: 64px;
-  }
+  margin-top: 64px;
 }
 
 @media screen and (max-width: 1024px) {

@@ -4,23 +4,13 @@
   text-decoration: none;
   color: white;
   padding: 0;
-  min-height: 28px;
   margin-top: 18px;
+  font-size: 24px;
+  line-height: 28px;
 }
 
 .header__lang-link:hover {
   opacity: 0.8;
-}
-
-.header__lang-link:first-child {
-  text-decoration: underline;
-}
-
-@media screen and (max-width: 2560px) {
-  .header__lang-link {
-    font-size: 24px;
-    line-height: 28px;
-  }
 }
 
 @media screen and (max-width: 320px) {

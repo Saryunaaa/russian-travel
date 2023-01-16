@@ -10,11 +10,19 @@
   color: #FFFFFF;
   margin: 0 auto;
   gap: 26px;
+  grid-area: paragraph;
 }
 
 @media screen and (max-width: 1024px) {
   .place__text {
     gap: 27px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__text {
+    font-size: 16px;
+    line-height: 26px;
   }
 }
 

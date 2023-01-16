@@ -5,34 +5,20 @@
   font-size: 18px;
   line-height: 29px;
   color: #FFFFFF;
-  grid-area: paragraph;
   margin: 0 auto;
-  width: 100%;
   align-self: flex-start;
-
-}
-
-@media screen and (max-width: 2560px) {
-  .place__text-paragraph {
-    max-width: 484px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .place__text-paragraph {
-    max-width: 456px;
-  }
 }
 
 @media screen and (max-width: 768px) {
   .place__text-paragraph {
-    max-width: 352px;
+    font-size: 16px;
+    line-height: 26px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__text-paragraph {
+    align-items: center;
     max-width: 288px;
-    margin-left: 16px;
   }
 }

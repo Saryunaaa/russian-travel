@@ -10,31 +10,14 @@
   text-align: center;
   color: #FFFFFF;
   width: 100%;
-  margin: 0;
-}
-
-@media screen and (max-width: 2560px) {
-  .cover__subtitle {
-    margin: 0 412px 245px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .cover__subtitle {
-    margin: 0 332px 195px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover__subtitle {
-    margin: 0 204px 115px;
-  }
+  padding: 0 auto;
+ margin: 0;
 }
 
 @media screen and (max-width: 320px) {
   .cover__subtitle {
     max-width: 288px;
-    margin: 0 16px 33px;
+    padding: 0 16px 33px;
     font-size: 14px;
     line-height: 16px;
   }
